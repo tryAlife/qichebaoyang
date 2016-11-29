@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QiangGouViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qianggou.png" translatesAutoresizingMaskIntoConstraints="NO" id="IQr-jT-13a"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMB-l5-4be">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="tmh-Oq-5ml"/>
+                        <constraint firstAttribute="width" constant="136" id="x6W-EU-XuW"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn1:" destination="-1" eventType="touchUpInside" id="07S-Nf-EfL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jH9-aU-vuz">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IGH-Ib-jGU"/>
+                        <constraint firstAttribute="width" constant="136" id="lUK-Np-Oj6"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btn2:" destination="-1" eventType="touchUpInside" id="DqG-p4-tBa"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IQr-jT-13a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="71P-FA-WJP"/>
+                <constraint firstItem="IQr-jT-13a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="9Pu-z9-5YC"/>
+                <constraint firstAttribute="bottom" secondItem="IQr-jT-13a" secondAttribute="bottom" id="Ir7-iW-u6u"/>
+                <constraint firstAttribute="trailing" secondItem="IQr-jT-13a" secondAttribute="trailing" id="g4o-Zm-aeu"/>
+                <constraint firstAttribute="trailing" secondItem="jH9-aU-vuz" secondAttribute="trailing" constant="37" id="lcF-Yx-tnf"/>
+                <constraint firstItem="jH9-aU-vuz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="292" id="o82-zY-mvN"/>
+                <constraint firstItem="MMB-l5-4be" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="sRi-sc-wcI"/>
+                <constraint firstItem="MMB-l5-4be" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="292" id="xKM-Xy-Ttc"/>
+            </constraints>
+            <point key="canvasLocation" x="-29.5" y="58.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="qianggou.png" width="396" height="582"/>
+    </resources>
+</document>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="charen" destination="Ld5-m4-D7o" id="tcD-hh-rFz"/>
+                <outlet property="dabaoyang" destination="7qJ-sl-anU" id="6p8-l2-oSq"/>
+                <outlet property="dianhua" destination="UAv-oU-qZU" id="g0h-zI-7Dq"/>
+                <outlet property="ditu" destination="fa9-qO-vkv" id="cgX-Hi-ewG"/>
+                <outlet property="genhuandianchi" destination="zGq-4z-IjQ" id="e6g-43-nvY"/>
+                <outlet property="jiayouka" destination="f7e-uK-wfz" id="UJJ-G5-cdp"/>
+                <outlet property="jiyougenghuan" destination="YK2-SG-9pb" id="iwY-oC-doc"/>
+                <outlet property="kongtiaoqingxi" destination="aZC-eh-UaK" id="lZq-tg-4M9"/>
+                <outlet property="lvxinqingxi" destination="vuC-eO-iLD" id="BoB-Dl-GfT"/>
+                <outlet property="myTableView" destination="ru2-Bn-Mwd" id="Xaw-GH-AaQ"/>
+                <outlet property="neishi" destination="ToE-7F-C2F" id="kNd-va-6d8"/>
+                <outlet property="qianggou" destination="hhu-f3-EDX" id="NCZ-re-e4A"/>
+                <outlet property="soufuwu" destination="f0S-gq-TfO" id="cYp-o4-hiJ"/>
+                <outlet property="tf" destination="nfC-Je-dy9" id="FMJ-Hs-XPG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weizhang" destination="2lL-Fh-ESh" id="zD9-Ld-abM"/>
+                <outlet property="xiaobaoyang" destination="dRl-Yp-HW4" id="cZ0-yR-wBP"/>
+                <outlet property="yuguaqi" destination="6eH-tQ-4Nk" id="yHv-Hx-lxF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0S-gq-TfO">
+                    <state key="normal" title="搜服务"/>
+                </button>
+                <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="nfC-Je-dy9">
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fa9-qO-vkv">
+                    <state key="normal" title="地图"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昆哥维修店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFL-mF-2bn">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9:00-18:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Th-eN-8GX">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UAv-oU-qZU">
+                    <state key="normal" title="电话"/>
+                    <connections>
+                        <action selector="xunwen:" destination="-1" eventType="touchUpInside" id="EYp-AG-F5N"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7qJ-sl-anU">
+                    <state key="normal" title="大保养"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="2LA-9m-1lx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZC-eh-UaK">
+                    <state key="normal" title="空调清洗"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="n2t-Gk-FA1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRl-Yp-HW4">
+                    <state key="normal" title="小保养"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="21u-ya-tG2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zGq-4z-IjQ">
+                    <state key="normal" title="更换蓄电池"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="tBi-S4-mQf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuC-eO-iLD">
+                    <state key="normal" title="滤芯清洗"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="gp6-ga-30F"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="107" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToE-7F-C2F">
+                    <state key="normal" title="内饰清洗"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="AfD-nR-dgg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lL-Fh-ESh">
+                    <state key="normal" title="违章查询"/>
+                    <connections>
+                        <action selector="weizhan:" destination="-1" eventType="touchUpInside" id="2BD-Mm-IgA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ld5-m4-D7o">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="172" id="oEU-VZ-RZd"/>
+                    </constraints>
+                    <state key="normal" title="驾照查分"/>
+                    <connections>
+                        <action selector="chafen:" destination="-1" eventType="touchUpInside" id="vw0-qL-xlv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhu-f3-EDX">
+                    <state key="normal" title="优惠抢购"/>
+                    <connections>
+                        <action selector="qiangou:" destination="-1" eventType="touchUpInside" id="Ud6-xx-dWP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7e-uK-wfz">
+                    <state key="normal" title="加油卡充值"/>
+                    <connections>
+                        <action selector="chognzhi:" destination="-1" eventType="touchUpInside" id="5jd-DY-Tmm"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ru2-Bn-Mwd">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="a4C-d7-DLm"/>
+                        <outlet property="delegate" destination="-1" id="zIl-hV-8gI"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="汽车档案栏" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xK1-yw-4H5">
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svD-dj-dLG">
+                    <color key="backgroundColor" red="0.75294117650000003" green="0.75686274509999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="As1-T5-7a4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YK2-SG-9pb">
+                    <state key="normal" title="机油更换"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="oWo-iy-uxH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eH-tQ-4Nk">
+                    <state key="normal" title="雨刮器"/>
+                    <connections>
+                        <action selector="fuwu:" destination="-1" eventType="touchUpInside" id="Z1E-EP-Jyc"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Ld5-m4-D7o" secondAttribute="trailing" constant="4" id="3V1-8f-MV2"/>
+                <constraint firstItem="YK2-SG-9pb" firstAttribute="leading" secondItem="6eH-tQ-4Nk" secondAttribute="leading" id="4cV-Ul-hls"/>
+                <constraint firstItem="2lL-Fh-ESh" firstAttribute="top" secondItem="svD-dj-dLG" secondAttribute="bottom" constant="32" id="4lB-Vw-RvC"/>
+                <constraint firstItem="UAv-oU-qZU" firstAttribute="top" secondItem="fa9-qO-vkv" secondAttribute="bottom" constant="32" id="5md-ct-bES"/>
+                <constraint firstItem="aZC-eh-UaK" firstAttribute="top" secondItem="7qJ-sl-anU" secondAttribute="bottom" constant="8" symbolic="YES" id="62X-1b-Pwf"/>
+                <constraint firstItem="hhu-f3-EDX" firstAttribute="top" secondItem="2lL-Fh-ESh" secondAttribute="bottom" constant="29" id="6fv-nL-9UW"/>
+                <constraint firstItem="dRl-Yp-HW4" firstAttribute="baseline" secondItem="YK2-SG-9pb" secondAttribute="baseline" id="B2V-6z-hoZ"/>
+                <constraint firstItem="YK2-SG-9pb" firstAttribute="trailing" secondItem="6eH-tQ-4Nk" secondAttribute="trailing" id="CUN-UG-NQP"/>
+                <constraint firstItem="Ld5-m4-D7o" firstAttribute="leading" secondItem="f7e-uK-wfz" secondAttribute="leading" id="FCU-Eu-HCb"/>
+                <constraint firstItem="2lL-Fh-ESh" firstAttribute="leading" secondItem="hhu-f3-EDX" secondAttribute="leading" id="FZj-u2-HJg"/>
+                <constraint firstItem="vuC-eO-iLD" firstAttribute="leading" secondItem="ToE-7F-C2F" secondAttribute="leading" id="GYk-W8-ou3"/>
+                <constraint firstItem="nfC-Je-dy9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="H12-Ej-sEg"/>
+                <constraint firstItem="7qJ-sl-anU" firstAttribute="trailing" secondItem="aZC-eh-UaK" secondAttribute="trailing" id="H9n-Nv-mpF"/>
+                <constraint firstItem="xK1-yw-4H5" firstAttribute="top" secondItem="hhu-f3-EDX" secondAttribute="bottom" constant="8" symbolic="YES" id="JTZ-0a-TLC"/>
+                <constraint firstAttribute="trailing" secondItem="ru2-Bn-Mwd" secondAttribute="trailing" id="KKM-1r-zfv"/>
+                <constraint firstItem="aZC-eh-UaK" firstAttribute="baseline" secondItem="zGq-4z-IjQ" secondAttribute="baseline" id="Mi8-IG-TPv"/>
+                <constraint firstItem="ru2-Bn-Mwd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="N6i-Ff-yZM"/>
+                <constraint firstItem="nfC-Je-dy9" firstAttribute="centerY" secondItem="fa9-qO-vkv" secondAttribute="centerY" id="Ng6-UZ-z5c"/>
+                <constraint firstItem="YK2-SG-9pb" firstAttribute="baseline" secondItem="vuC-eO-iLD" secondAttribute="baseline" id="O92-eS-gae"/>
+                <constraint firstAttribute="trailing" secondItem="svD-dj-dLG" secondAttribute="trailing" id="Put-ko-Vxn"/>
+                <constraint firstItem="xFL-mF-2bn" firstAttribute="top" secondItem="nfC-Je-dy9" secondAttribute="bottom" constant="13" id="RLl-MA-uTo"/>
+                <constraint firstItem="f0S-gq-TfO" firstAttribute="baseline" secondItem="fa9-qO-vkv" secondAttribute="baseline" id="SGB-DR-UeY"/>
+                <constraint firstAttribute="trailing" secondItem="fa9-qO-vkv" secondAttribute="trailing" constant="16" id="SJy-xb-06D"/>
+                <constraint firstItem="9Th-eN-8GX" firstAttribute="top" secondItem="xFL-mF-2bn" secondAttribute="bottom" constant="8" symbolic="YES" id="TCi-Tj-d1h"/>
+                <constraint firstItem="xFL-mF-2bn" firstAttribute="leading" secondItem="9Th-eN-8GX" secondAttribute="leading" id="U98-fe-vZe"/>
+                <constraint firstItem="2lL-Fh-ESh" firstAttribute="baseline" secondItem="Ld5-m4-D7o" secondAttribute="baseline" id="Ufa-5n-bmb"/>
+                <constraint firstItem="Ld5-m4-D7o" firstAttribute="leading" secondItem="2lL-Fh-ESh" secondAttribute="trailing" constant="8" symbolic="YES" id="V1b-7l-dYL"/>
+                <constraint firstItem="2lL-Fh-ESh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="4" id="Wsk-Hp-LVh"/>
+                <constraint firstItem="6eH-tQ-4Nk" firstAttribute="baseline" secondItem="ToE-7F-C2F" secondAttribute="baseline" id="Xif-Hx-gnt"/>
+                <constraint firstItem="ru2-Bn-Mwd" firstAttribute="top" secondItem="xK1-yw-4H5" secondAttribute="bottom" constant="8" id="YQx-e9-A08"/>
+                <constraint firstItem="YK2-SG-9pb" firstAttribute="leading" secondItem="dRl-Yp-HW4" secondAttribute="trailing" constant="36" id="Z4V-Ol-LXh"/>
+                <constraint firstItem="dRl-Yp-HW4" firstAttribute="trailing" secondItem="zGq-4z-IjQ" secondAttribute="trailing" id="auT-ai-e8K"/>
+                <constraint firstItem="vuC-eO-iLD" firstAttribute="leading" secondItem="YK2-SG-9pb" secondAttribute="trailing" constant="25" id="bkb-zX-aT6"/>
+                <constraint firstItem="7qJ-sl-anU" firstAttribute="leading" secondItem="aZC-eh-UaK" secondAttribute="leading" id="dcy-pb-xou"/>
+                <constraint firstItem="nfC-Je-dy9" firstAttribute="leading" secondItem="f0S-gq-TfO" secondAttribute="trailing" constant="7" id="eoV-tj-F7K"/>
+                <constraint firstAttribute="bottom" secondItem="ru2-Bn-Mwd" secondAttribute="bottom" constant="69" id="gLW-Eb-DPv"/>
+                <constraint firstItem="dRl-Yp-HW4" firstAttribute="top" secondItem="9Th-eN-8GX" secondAttribute="bottom" constant="26" id="ilr-cV-wR1"/>
+                <constraint firstItem="Ld5-m4-D7o" firstAttribute="trailing" secondItem="f7e-uK-wfz" secondAttribute="trailing" id="izp-yK-QwA"/>
+                <constraint firstItem="zGq-4z-IjQ" firstAttribute="top" secondItem="dRl-Yp-HW4" secondAttribute="bottom" constant="9" id="lJl-CM-I28"/>
+                <constraint firstItem="dRl-Yp-HW4" firstAttribute="leading" secondItem="7qJ-sl-anU" secondAttribute="trailing" constant="28" id="lYT-fD-kbD"/>
+                <constraint firstAttribute="trailing" secondItem="UAv-oU-qZU" secondAttribute="trailing" constant="23" id="pG7-Mp-OEO"/>
+                <constraint firstItem="dRl-Yp-HW4" firstAttribute="leading" secondItem="zGq-4z-IjQ" secondAttribute="leading" id="qeI-YU-Cri"/>
+                <constraint firstItem="fa9-qO-vkv" firstAttribute="leading" secondItem="nfC-Je-dy9" secondAttribute="trailing" constant="15" id="qwt-xo-tZE"/>
+                <constraint firstItem="f7e-uK-wfz" firstAttribute="leading" secondItem="hhu-f3-EDX" secondAttribute="trailing" constant="8" symbolic="YES" id="scC-D9-e3t"/>
+                <constraint firstItem="6eH-tQ-4Nk" firstAttribute="top" secondItem="YK2-SG-9pb" secondAttribute="bottom" constant="8" symbolic="YES" id="sv5-FK-Ozv"/>
+                <constraint firstItem="f0S-gq-TfO" firstAttribute="centerX" secondItem="7qJ-sl-anU" secondAttribute="centerX" id="tFE-8e-vvB"/>
+                <constraint firstItem="aZC-eh-UaK" firstAttribute="leading" secondItem="xK1-yw-4H5" secondAttribute="leading" id="vTI-ij-IlZ"/>
+                <constraint firstItem="hhu-f3-EDX" firstAttribute="baseline" secondItem="f7e-uK-wfz" secondAttribute="baseline" id="vuv-kk-Olk"/>
+                <constraint firstItem="f0S-gq-TfO" firstAttribute="leading" secondItem="xFL-mF-2bn" secondAttribute="leading" id="wI4-fb-9vb"/>
+                <constraint firstItem="svD-dj-dLG" firstAttribute="top" secondItem="aZC-eh-UaK" secondAttribute="bottom" constant="8" symbolic="YES" id="wsi-Bb-xRF"/>
+                <constraint firstItem="7qJ-sl-anU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="yBX-Y1-bvH"/>
+                <constraint firstItem="svD-dj-dLG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yNx-ck-02v"/>
+            </constraints>
+            <point key="canvasLocation" x="-380" y="-105"/>
+        </view>
+    </objects>
+</document>
