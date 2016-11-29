@@ -58,10 +58,10 @@
 
 
         }
+        KKShowNoticeMessage(@"已购买");
+        [self.navigationController popViewControllerAnimated:YES];
         
     }
-    KKShowNoticeMessage(@"已购买");
-    [self.navigationController popViewControllerAnimated:YES];
     
 }
 

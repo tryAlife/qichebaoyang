@@ -145,6 +145,8 @@
 		707CD6EC1DEDBD1000453EC4 /* gerenzhongxinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707CD6EA1DEDBD1000453EC4 /* gerenzhongxinViewController.xib */; };
 		707CD6F01DEDC7FE00453EC4 /* chekuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707CD6EE1DEDC7FE00453EC4 /* chekuViewController.m */; };
 		707CD6F11DEDC7FE00453EC4 /* chekuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707CD6EF1DEDC7FE00453EC4 /* chekuViewController.xib */; };
+		707CD6F51DEDCA5F00453EC4 /* bianjiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707CD6F31DEDCA5E00453EC4 /* bianjiViewController.m */; };
+		707CD6F61DEDCA5F00453EC4 /* bianjiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 707CD6F41DEDCA5E00453EC4 /* bianjiViewController.xib */; };
 		70AEA95A1DA8E73D001EEB35 /* btn_NavBackDefault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 70AEA9591DA8E73D001EEB35 /* btn_NavBackDefault@2x.png */; };
 		70D21BEE1DADE481005CE9E8 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D21BD51DADE481005CE9E8 /* MASCompositeConstraint.m */; };
 		70D21BEF1DADE481005CE9E8 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 70D21BD81DADE481005CE9E8 /* MASConstraint.m */; };
@@ -427,6 +429,9 @@
 		707CD6ED1DEDC7FE00453EC4 /* chekuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chekuViewController.h; sourceTree = "<group>"; };
 		707CD6EE1DEDC7FE00453EC4 /* chekuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chekuViewController.m; sourceTree = "<group>"; };
 		707CD6EF1DEDC7FE00453EC4 /* chekuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = chekuViewController.xib; sourceTree = "<group>"; };
+		707CD6F21DEDCA5E00453EC4 /* bianjiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bianjiViewController.h; sourceTree = "<group>"; };
+		707CD6F31DEDCA5E00453EC4 /* bianjiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bianjiViewController.m; sourceTree = "<group>"; };
+		707CD6F41DEDCA5E00453EC4 /* bianjiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bianjiViewController.xib; sourceTree = "<group>"; };
 		70AEA9591DA8E73D001EEB35 /* btn_NavBackDefault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_NavBackDefault@2x.png"; sourceTree = "<group>"; };
 		70D21BD41DADE481005CE9E8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
 		70D21BD51DADE481005CE9E8 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
@@ -1002,6 +1007,9 @@
 				707CD6ED1DEDC7FE00453EC4 /* chekuViewController.h */,
 				707CD6EE1DEDC7FE00453EC4 /* chekuViewController.m */,
 				707CD6EF1DEDC7FE00453EC4 /* chekuViewController.xib */,
+				707CD6F21DEDCA5E00453EC4 /* bianjiViewController.h */,
+				707CD6F31DEDCA5E00453EC4 /* bianjiViewController.m */,
+				707CD6F41DEDCA5E00453EC4 /* bianjiViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1379,6 +1387,7 @@
 				706FF0D41DDB069F00BCAB8E /* bg1.png in Resources */,
 				706FF0D81DDB069F00BCAB8E /* bg5.png in Resources */,
 				707283FA1D9E061300274CE2 /* wo.png in Resources */,
+				707CD6F61DEDCA5F00453EC4 /* bianjiViewController.xib in Resources */,
 				706FF0DC1DDB069F00BCAB8E /* bg9.png in Resources */,
 				705CA6831D9DF09F003D1686 /* Main.storyboard in Resources */,
 				707CD6DE1DEDA53900453EC4 /* QiangGouViewController.xib in Resources */,
@@ -1428,6 +1437,7 @@
 				705CA6801D9DF09F003D1686 /* ViewController.m in Sources */,
 				700A4B3C1DAA1BE600A5A318 /* ASIDownloadCache.m in Sources */,
 				707CD6DD1DEDA53900453EC4 /* QiangGouViewController.m in Sources */,
+				707CD6F51DEDCA5F00453EC4 /* bianjiViewController.m in Sources */,
 				700A4B661DAA1BE600A5A318 /* SDImageCache.m in Sources */,
 				700A4B411DAA1BE600A5A318 /* Reachability.m in Sources */,
 				707CD6D91DEDA22E00453EC4 /* WebViewController.m in Sources */,

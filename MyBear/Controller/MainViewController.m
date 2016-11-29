@@ -27,7 +27,7 @@
     self.navigationController.navigationBar.hidden=NO;
 }
 - (IBAction)xunwen:(id)sender {
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"是否购买？" delegate:self cancelButtonTitle:@"否" otherButtonTitles:@"是", nil];
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"是否询问师傅？" delegate:self cancelButtonTitle:@"否" otherButtonTitles:@"是", nil];
     [alert show];
 
 }

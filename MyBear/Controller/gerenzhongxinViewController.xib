@@ -29,12 +29,21 @@
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnu-2G-hQN">
                     <state key="normal" title="车库"/>
+                    <connections>
+                        <action selector="cehku:" destination="-1" eventType="touchUpInside" id="fgx-hd-0gX"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-m0-YD7">
                     <state key="normal" title="待服务"/>
+                    <connections>
+                        <action selector="daifuwu:" destination="-1" eventType="touchUpInside" id="ktb-jy-Tsj"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQE-dQ-l7i">
                     <state key="normal" title="已服务"/>
+                    <connections>
+                        <action selector="yifuwu:" destination="-1" eventType="touchUpInside" id="yaB-qW-GUs"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nB2-Ta-9vF">
                     <state key="normal" title="我的订单">
@@ -80,6 +89,9 @@
                         <constraint firstAttribute="width" constant="292" id="8PB-Je-mg5"/>
                         <constraint firstAttribute="height" constant="30" id="dHO-Aj-cOp"/>
                     </constraints>
+                    <connections>
+                        <action selector="wodedingdana:" destination="-1" eventType="touchUpInside" id="59O-Rg-eZy"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uth-sE-adM">
                     <color key="backgroundColor" red="0.75294117650000003" green="0.75686274509999996" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -133,7 +145,7 @@
                 <constraint firstItem="JCy-m0-YD7" firstAttribute="top" secondItem="MOp-ec-WcT" secondAttribute="bottom" constant="17" id="x28-AW-UQK"/>
                 <constraint firstAttribute="trailing" secondItem="MOp-ec-WcT" secondAttribute="trailing" constant="41" id="yZV-B0-RpG"/>
             </constraints>
-            <point key="canvasLocation" x="-2.5" y="-29.5"/>
+            <point key="canvasLocation" x="20" y="-164"/>
         </view>
     </objects>
     <resources>

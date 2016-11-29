@@ -8,6 +8,9 @@
 
 #import "BaseViewController.h"
 
-@interface chekuViewController : BaseViewController
+@interface chekuViewController : BaseViewController <UITableViewDataSource,UITableViewDelegate>
+@property(nonatomic,retain)UITableView *myTableView;
+@property(nonatomic,retain)NSMutableArray *dataSource;
+@property(nonatomic,retain)NSMutableDictionary *information;
 
 @end

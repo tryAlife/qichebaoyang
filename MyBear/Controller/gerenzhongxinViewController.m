@@ -7,7 +7,7 @@
 //
 
 #import "gerenzhongxinViewController.h"
-
+#import "chekuViewController.h"
 @interface gerenzhongxinViewController ()
 
 @end
@@ -22,6 +22,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)cehku:(id)sender {
+    chekuViewController *viewController = [[chekuViewController alloc]init];
+    [self.navigationController pushViewController:viewController animated:YES];
+
+}
+- (IBAction)daifuwu:(id)sender {
+}
+- (IBAction)yifuwu:(id)sender {
+}
+- (IBAction)wodedingdana:(id)sender {
 }
 
 /*
